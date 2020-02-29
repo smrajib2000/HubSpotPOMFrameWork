@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hub Spot Test Suit" verbose="1">
+
+
+<test name="Hub Spot Regression Test" allow-return-values="true">
+    <classes>
+        <class name="com.qa.hubspot.tests.LoginTest" ></class>
+         
+         
+    </classes> 
+    
+    
+</test>
+</suite>

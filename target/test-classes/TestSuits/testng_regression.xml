@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hub Spot Test Suit" verbose="1">
+
+	<listeners>
+		<listener class-name = "com.qa.hubspot.listeners.ExtentReportListener"/>
+	
+	</listeners>
+<test name="Hub Spot Regression Test" allow-return-values="true">
+
+    <classes>
+        <class name="com.qa.hubspot.tests.LoginTest" ></class>
+        <class name="com.qa.hubspot.tests.HomePageTest" ></class> 
+        <class name="com.qa.hubspot.tests.ContactsPageTest" ></class>  
+    </classes> 
+    
+   <!-- <packages>
+    	<package name ="com.qa.hubspot.tests.*"/>
+    
+    </packages>  -->
+</test>
+</suite>

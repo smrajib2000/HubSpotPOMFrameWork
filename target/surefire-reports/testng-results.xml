@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hub Spot Test Suit" duration-ms="36248" started-at="2020-02-27T17:40:14Z" finished-at="2020-02-27T17:40:50Z">
+    <groups>
+    </groups>
+    <test name="Hub Spot Regression Test" duration-ms="36248" started-at="2020-02-27T17:40:14Z" finished-at="2020-02-27T17:40:50Z">
+      <class name="com.qa.hubspot.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@5d012c]" name="setUp" is-config="true" duration-ms="13057" started-at="2020-02-27T17:40:14Z" finished-at="2020-02-27T17:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPagetitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginTest@5d012c]" name="verifyLoginPagetitleTest" duration-ms="13" started-at="2020-02-27T17:40:27Z" finished-at="2020-02-27T17:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPagetitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@5d012c]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-02-27T17:40:27Z" finished-at="2020-02-27T17:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@5d012c]" name="setUp" is-config="true" duration-ms="11199" started-at="2020-02-27T17:40:27Z" finished-at="2020-02-27T17:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginTest@5d012c]" name="verifySignUpLinkTest" duration-ms="72" started-at="2020-02-27T17:40:38Z" finished-at="2020-02-27T17:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@5d012c]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-02-27T17:40:38Z" finished-at="2020-02-27T17:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@5d012c]" name="setUp" is-config="true" duration-ms="11173" started-at="2020-02-27T17:40:38Z" finished-at="2020-02-27T17:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doLogin()[pri:3, instance:com.qa.hubspot.tests.LoginTest@5d012c]" name="doLogin" duration-ms="718" started-at="2020-02-27T17:40:50Z" finished-at="2020-02-27T17:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@5d012c]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-02-27T17:40:50Z" finished-at="2020-02-27T17:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.LoginTest -->
+    </test> <!-- Hub Spot Regression Test -->
+  </suite> <!-- Hub Spot Test Suit -->
+</testng-results>
