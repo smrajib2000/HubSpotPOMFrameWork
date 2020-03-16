@@ -1,0 +1,92 @@
+[1583781418.638][INFO]: Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 31830
+[1583781418.638][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1583781419.069][INFO]: [6f5e37c860fcfa0eb1d09a3d99bc2198] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1583781419.073][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1583781419.075][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1583781419.086][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\Rajib\AppData\Local\Temp\scoped_dir34704_1703837683\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Rajib\AppData\Local\Temp\scoped_dir34704_665391046" data:,
+[1583781419.627][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1583781421.626][WARNING]: Timed out connecting to Chrome, retrying...
+[1583781421.627][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1583781425.627][WARNING]: Timed out connecting to Chrome, retrying...
+[1583781425.628][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1583781433.653][INFO]: [6f5e37c860fcfa0eb1d09a3d99bc2198] RESPONSE InitSession ERROR session not created
+from chrome not reachable
+  (Session info: chrome=80.0.3987.132)

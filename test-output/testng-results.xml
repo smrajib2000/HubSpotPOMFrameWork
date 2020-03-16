@@ -1,232 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
+<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Hub Spot Test Suit" duration-ms="212610" started-at="2020-02-27T22:10:30Z" finished-at="2020-02-27T22:14:03Z">
+  <suite name="Hub Spot Test Suit" duration-ms="692" started-at="2020-03-09T19:14:50Z" finished-at="2020-03-09T19:14:51Z">
     <groups>
     </groups>
-    <test name="Hub Spot Regression Test" duration-ms="212610" started-at="2020-02-27T22:10:30Z" finished-at="2020-02-27T22:14:03Z">
-      <class name="com.qa.hubspot.tests.ContactsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="setUp" is-config="true" duration-ms="22965" started-at="2020-02-27T17:10:31Z" finished-at="2020-02-27T17:10:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createContactsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="createContactsTest" duration-ms="2616" started-at="2020-02-27T17:10:54Z" data-provider="getContactsData" finished-at="2020-02-27T17:10:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aashi@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ashi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[singal]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[QA lead]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="tearDown" is-config="true" duration-ms="620" started-at="2020-02-27T17:10:56Z" finished-at="2020-02-27T17:10:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="setUp" is-config="true" duration-ms="21191" started-at="2020-02-27T17:10:57Z" finished-at="2020-02-27T17:11:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createContactsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="createContactsTest" duration-ms="2436" started-at="2020-02-27T17:11:18Z" data-provider="getContactsData" finished-at="2020-02-27T17:11:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bharat@gmai.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bharat]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ln1]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Sr QA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="tearDown" is-config="true" duration-ms="615" started-at="2020-02-27T17:11:20Z" finished-at="2020-02-27T17:11:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="setUp" is-config="true" duration-ms="21096" started-at="2020-02-27T17:11:21Z" finished-at="2020-02-27T17:11:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createContactsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="createContactsTest" duration-ms="2626" started-at="2020-02-27T17:11:42Z" data-provider="getContactsData" finished-at="2020-02-27T17:11:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[diyva@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[diyva]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ln2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[QA director]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="tearDown" is-config="true" duration-ms="637" started-at="2020-02-27T17:11:45Z" finished-at="2020-02-27T17:11:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="setUp" is-config="true" duration-ms="21117" started-at="2020-02-27T17:11:45Z" finished-at="2020-02-27T17:12:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createContactsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="createContactsTest" duration-ms="2647" started-at="2020-02-27T17:12:07Z" data-provider="getContactsData" finished-at="2020-02-27T17:12:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rajib@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rajib]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[lan3]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[manager]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="tearDown" is-config="true" duration-ms="615" started-at="2020-02-27T17:12:09Z" finished-at="2020-02-27T17:12:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="setUp" is-config="true" duration-ms="21192" started-at="2020-02-27T17:12:10Z" finished-at="2020-02-27T17:12:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createContactsTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="createContactsTest" duration-ms="2596" started-at="2020-02-27T17:12:31Z" data-provider="getContactsData" finished-at="2020-02-27T17:12:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[faisol@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[faisol]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[gada]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Qa Analyst]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@10726a3]" name="tearDown" is-config="true" duration-ms="613" started-at="2020-02-27T17:12:34Z" finished-at="2020-02-27T17:12:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.hubspot.tests.ContactsPageTest -->
-      <class name="com.qa.hubspot.tests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@9494d8]" name="setUp" is-config="true" duration-ms="17471" started-at="2020-02-27T17:12:46Z" finished-at="2020-02-27T17:13:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@9494d8]" name="verifyHomePageTitleTest" duration-ms="7" started-at="2020-02-27T17:13:04Z" finished-at="2020-02-27T17:13:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@9494d8]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-02-27T17:13:04Z" finished-at="2020-02-27T17:13:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@9494d8]" name="setUp" is-config="true" duration-ms="17483" started-at="2020-02-27T17:13:15Z" finished-at="2020-02-27T17:13:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@9494d8]" name="verifyHomePageHeaderTest" duration-ms="28" started-at="2020-02-27T17:13:33Z" finished-at="2020-02-27T17:13:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageHeaderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@9494d8]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-02-27T17:13:33Z" finished-at="2020-02-27T17:13:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@9494d8]" name="setUp" is-config="true" duration-ms="17509" started-at="2020-02-27T17:13:45Z" finished-at="2020-02-27T17:14:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoggedInAccountNameTest()[pri:3, instance:com.qa.hubspot.tests.HomePageTest@9494d8]" name="verifyLoggedInAccountNameTest" duration-ms="33" started-at="2020-02-27T17:14:03Z" finished-at="2020-02-27T17:14:03Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [null] but found []]]>
-            </message>
+    <test name="Hub Spot Regression Test" duration-ms="692" started-at="2020-03-09T19:14:50Z" finished-at="2020-03-09T19:14:51Z">
+      <class name="com.qa.hubspot.tests.LoginTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@11161c7]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-09T15:14:50Z" finished-at="2020-03-09T15:14:50Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [null] but found []
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:130)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at com.qa.hubspot.tests.HomePageTest.verifyLoggedInAccountNameTest(HomePageTest.java:54)
+              <![CDATA[java.lang.NullPointerException
+	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -248,49 +42,144 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoggedInAccountNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@9494d8]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-02-27T17:14:03Z" finished-at="2020-02-27T17:14:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
-      <class name="com.qa.hubspot.tests.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@154b04f]" name="setUp" is-config="true" duration-ms="11207" started-at="2020-02-27T17:12:34Z" finished-at="2020-02-27T17:12:45Z">
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPagetitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginTest@154b04f]" name="verifyLoginPagetitleTest" duration-ms="9" started-at="2020-02-27T17:12:45Z" finished-at="2020-02-27T17:12:45Z">
+        <test-method status="SKIP" signature="verifyLoginPagetitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginTest@11161c7]" name="verifyLoginPagetitleTest" duration-ms="0" started-at="2020-03-09T15:14:51Z" finished-at="2020-03-09T15:14:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPagetitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@154b04f]" name="tearDown" is-config="true" duration-ms="593" started-at="2020-02-27T17:12:45Z" finished-at="2020-02-27T17:12:46Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@11161c7]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-09T15:14:51Z" finished-at="2020-03-09T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@154b04f]" name="setUp" is-config="true" duration-ms="11174" started-at="2020-02-27T17:13:04Z" finished-at="2020-02-27T17:13:15Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@11161c7]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-09T15:14:51Z" finished-at="2020-03-09T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginTest@154b04f]" name="verifySignUpLinkTest" duration-ms="71" started-at="2020-02-27T17:13:15Z" finished-at="2020-02-27T17:13:15Z">
+        <test-method status="SKIP" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginTest@11161c7]" name="verifySignUpLinkTest" duration-ms="1" started-at="2020-03-09T15:14:51Z" finished-at="2020-03-09T15:14:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@154b04f]" name="tearDown" is-config="true" duration-ms="615" started-at="2020-02-27T17:13:15Z" finished-at="2020-02-27T17:13:15Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@11161c7]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-09T15:14:51Z" finished-at="2020-03-09T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@154b04f]" name="setUp" is-config="true" duration-ms="11166" started-at="2020-02-27T17:13:33Z" finished-at="2020-02-27T17:13:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="doLogin()[pri:3, instance:com.qa.hubspot.tests.LoginTest@154b04f]" name="doLogin" duration-ms="338" started-at="2020-02-27T17:13:44Z" finished-at="2020-02-27T17:13:44Z">
+        <test-method status="SKIP" signature="doLogin()[pri:3, instance:com.qa.hubspot.tests.LoginTest@11161c7]" name="doLogin" duration-ms="1" started-at="2020-03-09T15:14:51Z" finished-at="2020-03-09T15:14:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@154b04f]" name="tearDown" is-config="true" duration-ms="604" started-at="2020-02-27T17:13:44Z" finished-at="2020-02-27T17:13:45Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@11161c7]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-09T15:14:51Z" finished-at="2020-03-09T15:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@11161c7]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-09T15:14:51Z" finished-at="2020-03-09T15:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

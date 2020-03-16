@@ -31,6 +31,7 @@ public class BasePage {
 		if(browserName.equals("chrome")){
 			System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "null");
 			tldriver.set(new ChromeDriver());
+			//WebDriverManager.chromedriver().setup();
 		
 		}
 		else if(browserName.equals("firefox")){
@@ -41,6 +42,7 @@ public class BasePage {
 			}
 		else if(browserName.equals("edge")){
 			tldriver.set(new EdgeDriver());
+			//WebDriverManager.edgedriver().setup();
 			}
 		else{
 			System.out.println("No browser is classified");
