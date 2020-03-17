@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 06 03:17:29 EST 2020</td>
+<td>Started on:</td><td>Mon Mar 16 20:41:38 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (457 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (32 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,9 +76,8 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.qa.hubspot.tests.LoginTest.setUp()'><b>setUp</b><br>Test class: com.qa.hubspot.tests.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
-	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+<td><div><pre>java.lang.NoClassDefFoundError: com/qa/hubspot/base/BasePage
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -106,10 +105,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace15282063", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace15282063'><pre>java.lang.NullPointerException
-	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
-	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+Caused by: java.lang.ClassNotFoundException: com.qa.hubspot.base.BasePage
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace31467689", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace31467689'><pre>java.lang.NoClassDefFoundError: com/qa/hubspot/base/BasePage
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -137,6 +141,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.ClassNotFoundException: com.qa.hubspot.base.BasePage
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
 </pre></div></td>
 <td>0</td>
 <td>com.qa.hubspot.tests.LoginTest@11161c7</td></tr>
@@ -183,9 +193,8 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.qa.hubspot.tests.LoginTest.doLogin()'><b>doLogin</b><br>Test class: com.qa.hubspot.tests.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
-	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+<td><div><pre>java.lang.NoClassDefFoundError: com/qa/hubspot/base/BasePage
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -213,10 +222,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace7592240", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace7592240'><pre>java.lang.NullPointerException
-	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
-	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+Caused by: java.lang.ClassNotFoundException: com.qa.hubspot.base.BasePage
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace25462435", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace25462435'><pre>java.lang.NoClassDefFoundError: com/qa/hubspot/base/BasePage
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -244,14 +258,19 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.ClassNotFoundException: com.qa.hubspot.base.BasePage
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
 </pre></div></td>
 <td>0</td>
 <td>com.qa.hubspot.tests.LoginTest@11161c7</td></tr>
 <tr>
 <td title='com.qa.hubspot.tests.LoginTest.verifyLoginPagetitleTest()'><b>verifyLoginPagetitleTest</b><br>Test class: com.qa.hubspot.tests.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
-	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+<td><div><pre>java.lang.NoClassDefFoundError: com/qa/hubspot/base/BasePage
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -279,10 +298,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace14928782", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace14928782'><pre>java.lang.NullPointerException
-	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
-	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+Caused by: java.lang.ClassNotFoundException: com.qa.hubspot.base.BasePage
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace30691851", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace30691851'><pre>java.lang.NoClassDefFoundError: com/qa/hubspot/base/BasePage
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -310,14 +334,19 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.ClassNotFoundException: com.qa.hubspot.base.BasePage
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
 </pre></div></td>
 <td>0</td>
 <td>com.qa.hubspot.tests.LoginTest@11161c7</td></tr>
 <tr>
 <td title='com.qa.hubspot.tests.LoginTest.verifySignUpLinkTest()'><b>verifySignUpLinkTest</b><br>Test class: com.qa.hubspot.tests.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
-	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+<td><div><pre>java.lang.NoClassDefFoundError: com/qa/hubspot/base/BasePage
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -345,10 +374,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace17932027", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace17932027'><pre>java.lang.NullPointerException
-	at com.qa.hubspot.base.BasePage.initialize_driver(BasePage.java:53)
-	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:26)
+Caused by: java.lang.ClassNotFoundException: com.qa.hubspot.base.BasePage
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace22358304", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22358304'><pre>java.lang.NoClassDefFoundError: com/qa/hubspot/base/BasePage
+	at com.qa.hubspot.tests.LoginTest.setUp(LoginTest.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -376,6 +410,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.ClassNotFoundException: com.qa.hubspot.base.BasePage
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
 </pre></div></td>
 <td>0</td>
 <td>com.qa.hubspot.tests.LoginTest@11161c7</td></tr>

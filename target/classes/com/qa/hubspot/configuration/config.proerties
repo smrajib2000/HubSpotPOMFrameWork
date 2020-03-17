@@ -1,8 +1,0 @@
-browser = chrome
-url = https://app.hubspot.com/login
-username = smrajib2000@yahoo.com
-password =Selenium@
-accountname =Shah
-
-fullscreenmode = no
-highlightelement = yes

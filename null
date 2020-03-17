@@ -1,6 +1,6 @@
-[1583781418.638][INFO]: Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 31830
-[1583781418.638][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1583781419.069][INFO]: [6f5e37c860fcfa0eb1d09a3d99bc2198] COMMAND InitSession {
+[1584408492.043][INFO]: Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 12856
+[1584408492.043][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1584408492.484][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -18,7 +18,7 @@
       }
    }
 }
-[1583781419.073][INFO]: Populating Preferences file: {
+[1584408492.490][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -71,7 +71,7 @@
       "enabled": false
    }
 }
-[1583781419.075][INFO]: Populating Local State file: {
+[1584408492.493][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -81,12 +81,158 @@
       }
    }
 }
-[1583781419.086][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\Rajib\AppData\Local\Temp\scoped_dir34704_1703837683\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Rajib\AppData\Local\Temp\scoped_dir34704_665391046" data:,
-[1583781419.627][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1583781421.626][WARNING]: Timed out connecting to Chrome, retrying...
-[1583781421.627][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1583781425.627][WARNING]: Timed out connecting to Chrome, retrying...
-[1583781425.628][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1583781433.653][INFO]: [6f5e37c860fcfa0eb1d09a3d99bc2198] RESPONSE InitSession ERROR session not created
-from chrome not reachable
-  (Session info: chrome=80.0.3987.132)
+[1584408492.506][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\Rajib\AppData\Local\Temp\scoped_dir3316_856221379\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Rajib\AppData\Local\Temp\scoped_dir3316_429899525" data:,
+[1584408493.003][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1584408495.000][WARNING]: Timed out connecting to Chrome, retrying...
+[1584408495.001][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1584408497.009][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "80.0.3987.132",
+      "chrome": {
+         "chromedriverVersion": "80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185})",
+         "userDataDir": "C:\\Users\\Rajib\\AppData\\Local\\Temp\\scoped_dir3316_429899525"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54449"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "95fef9b637ce4471e18a83a65704b88c"
+}
+[1584408497.013][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND SetTimeouts {
+   "pageLoad": 20000
+}
+[1584408497.013][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE SetTimeouts
+[1584408497.015][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND DeleteAllCookies {
+
+}
+[1584408497.015][INFO]: Waiting for pending navigations...
+[1584408497.017][INFO]: Done waiting for pending navigations. Status: ok
+[1584408497.019][INFO]: Waiting for pending navigations...
+[1584408497.019][INFO]: Done waiting for pending navigations. Status: ok
+[1584408497.019][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE DeleteAllCookies
+[1584408497.022][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND Navigate {
+   "url": "https://app.hubspot.com/login"
+}
+[1584408497.022][INFO]: Waiting for pending navigations...
+[1584408497.023][INFO]: Done waiting for pending navigations. Status: ok
+[1584408497.116][INFO]: Waiting for pending navigations...
+[1584408497.147][INFO]: Done waiting for pending navigations. Status: ok
+[1584408497.147][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE Navigate
+[1584408503.152][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#username"
+}
+[1584408503.158][INFO]: Waiting for pending navigations...
+[1584408503.159][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.185][INFO]: Waiting for pending navigations...
+[1584408503.187][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.187][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "5eb997ed-99bc-4ae7-8342-213a816b9894"
+} ]
+[1584408503.192][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#username"
+}
+[1584408503.192][INFO]: Waiting for pending navigations...
+[1584408503.194][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.207][INFO]: Waiting for pending navigations...
+[1584408503.208][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.208][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5eb997ed-99bc-4ae7-8342-213a816b9894"
+}
+[1584408503.218][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND TypeElement {
+   "id": "5eb997ed-99bc-4ae7-8342-213a816b9894",
+   "text": "smrajib2000@yahoo.com",
+   "value": [ "s", "m", "r", "a", "j", "i", "b", "2", "0", "0", "0", "@", "y", "a", "h", "o", "o", ".", "c", "..." ]
+}
+[1584408503.218][INFO]: Waiting for pending navigations...
+[1584408503.219][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.375][INFO]: Waiting for pending navigations...
+[1584408503.375][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.375][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE TypeElement
+[1584408503.377][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#password"
+}
+[1584408503.377][INFO]: Waiting for pending navigations...
+[1584408503.378][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.383][INFO]: Waiting for pending navigations...
+[1584408503.383][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.383][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "4437e2e9-cf01-4f63-b841-366691e6db31"
+} ]
+[1584408503.385][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#password"
+}
+[1584408503.385][INFO]: Waiting for pending navigations...
+[1584408503.386][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.391][INFO]: Waiting for pending navigations...
+[1584408503.391][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.391][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4437e2e9-cf01-4f63-b841-366691e6db31"
+}
+[1584408503.393][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND TypeElement {
+   "id": "4437e2e9-cf01-4f63-b841-366691e6db31",
+   "text": "Selenium@",
+   "value": [ "S", "e", "l", "e", "n", "i", "u", "m", "@" ]
+}
+[1584408503.393][INFO]: Waiting for pending navigations...
+[1584408503.394][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.465][INFO]: Waiting for pending navigations...
+[1584408503.466][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.466][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE TypeElement
+[1584408503.468][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#loginBtn"
+}
+[1584408503.468][INFO]: Waiting for pending navigations...
+[1584408503.469][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.474][INFO]: Waiting for pending navigations...
+[1584408503.474][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.474][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "9ea7a927-b0a7-42a0-93a5-9925b39059bf"
+} ]
+[1584408503.477][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#loginBtn"
+}
+[1584408503.477][INFO]: Waiting for pending navigations...
+[1584408503.478][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.483][INFO]: Waiting for pending navigations...
+[1584408503.484][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.484][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9ea7a927-b0a7-42a0-93a5-9925b39059bf"
+}
+[1584408503.486][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "9ea7a927-b0a7-42a0-93a5-9925b39059bf",
+      "element-6066-11e4-a52e-4f735466cecf": "9ea7a927-b0a7-42a0-93a5-9925b39059bf"
+   } ],
+   "script": "arguments[0].click();"
+}
+[1584408503.486][INFO]: Waiting for pending navigations...
+[1584408503.487][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.512][INFO]: Waiting for pending navigations...
+[1584408503.517][INFO]: Done waiting for pending navigations. Status: ok
+[1584408503.517][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE ExecuteScript null
+[1584408503.519][INFO]: [95fef9b637ce4471e18a83a65704b88c] COMMAND Quit {
+
+}
+[1584408503.540][INFO]: [95fef9b637ce4471e18a83a65704b88c] RESPONSE Quit

@@ -59,6 +59,13 @@
 
 
 	<dependencies>
+	<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin -->
+<dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>1.6.0</version>
+</dependency>
+	
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -113,11 +120,13 @@
 			<version>1.0-beta</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>3.1.5</version>
-		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.0.0</version>
+</dependency>
+
 		<dependency>
     		<groupId>io.github.bonigarcia</groupId>
     		<artifactId>webdrivermanager</artifactId>
