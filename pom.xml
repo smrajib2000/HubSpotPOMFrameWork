@@ -133,6 +133,12 @@
 			<artifactId>openxml4j</artifactId>
 			<version>1.0-beta</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.redhat.qe/testng-listeners -->
+<dependency>
+    <groupId>com.redhat.qe</groupId>
+    <artifactId>testng-listeners</artifactId>
+    <version>1.0.0</version>
+</dependency>
 
 		<dependency>
 			<groupId>com.aventstack</groupId>
